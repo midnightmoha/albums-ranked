@@ -1,0 +1,109 @@
+
+
+.gradient-background {
+    background: linear-gradient(300deg, #83199d, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 15s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body{
+    background-color: #EEEEEE;
+}
+
+
+hr{
+
+    border: none;
+    background-color: #ccc;
+    color: rgba(120, 120, 120, 1);
+    height: 1px;
+
+}
+
+h2{
+    margin: 0%;
+    font-weight: 650;
+    color:#1A1A1D;
+}
+
+h3{
+    margin: 0%;
+    font-weight: 500;
+    color:#1A1A1D;
+}
+
+p{
+    margin: 0%;
+    margin-right: 40px;
+    text-align: justify;
+    font-weight: 350;
+    color:#1A1A1D;
+    overflow: hidden;
+
+}
+.main-card{
+    margin: 20px
+}
+
+.albumcover{
+    float: left;
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+
+.albums-card{
+    display: inline-block;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.album{
+   display: inline-block;   
+   width: 100%;
+   padding:20px
+}
+
+.album h2{
+    width: 90%;
+}
+
+.album h3{
+    width: 90%;
+}
+
+@media (max-width:550px) {
+
+    .albumcover{
+        max-width: 100%;
+        width: 400px;
+        object-fit: cover;
+        margin-bottom: 15px;
+
+    }
+    
+    h3{
+        margin-bottom: 5px;
+        font-weight: 500;
+        color:#1A1A1D;
+    }
+    
+}
+
