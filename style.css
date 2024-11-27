@@ -1,11 +1,16 @@
-
-
-.gradient-background {
-    background: linear-gradient(300deg, #83199d, #ff4c68, #ef8172);
+/* Gradients ------------------------------------------------------------------------------------------------------------------------------*/
+.gradient-background-main {
+    background: linear-gradient(300deg, #4fff2b, #3b26ff, #c533ff);
     background-size: 180% 180%;
-    animation: gradient-animation 15s ease infinite;
+    animation: gradient-animation 12s ease infinite;
   }
   
+  .gradient-background-emotion {
+    background: linear-gradient(300deg, #fe769a, #f88ba8, #fcf15e);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -17,20 +22,21 @@
       background-position: 0% 50%;
     }
   }
+  /* ---------------------------------------------------------------------------------------------------------------------------------------*/
 
   body{
     background-color: #EEEEEE;
 }
 
+/* #83199d, #ff4c68, #ef8172 */
 
 hr{
-
     border: none;
     background-color: #ccc;
     color: rgba(120, 120, 120, 1);
     height: 1px;
-
 }
+
 
 h2{
     margin: 0%;
@@ -44,8 +50,9 @@ h3{
     color:#1A1A1D;
 }
 
-p{
+.albumbio{
     margin: 0%;
+    margin-top: 5px;
     text-align: justify;
     font-weight: 350;
     color:#1A1A1D;
@@ -63,17 +70,6 @@ p{
     border-radius: 10px;
 }
 
-
-.albums-card{
-    display: inline-block;
-    background-color: #EEEEEE;
-    width: 100%;
-    height: 100%;
-    border-radius: 10px;
-    margin-top: 20px;
-
-}
-
 .album{
    display: inline-block;   
    width: 100%;
@@ -86,6 +82,35 @@ p{
 
 .album h3{
     width: 90%;
+}
+
+/* album page---------------------------------------------------------------------------------------------------------------------------*/
+
+.albumcoverpage{
+    border-radius: 10px;
+}
+
+.span-info{
+    font-weight:600;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.albums-card{
+    display: inline-block;
+    background-color: #EEEEEE;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.list{
+    border-color: #EEEEEE;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #ccc;
 }
 
 @media (max-width:550px) {

@@ -1,55 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Albums Ranked</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-    <section id="title" class="gradient-background">
-        <div class="container col-xxl-8 px-4 py-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-              <img src="./assets/albumCovers/cover.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes"  width="1000" height="1000" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-              <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">My All Time Favorite Albums Ranked.</h1>
-              <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-              </div>
-            </div>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section id="title" class="gradient-background-main">
+      <div class="container col-xxl-8 px-4">
+        <div class="row align-items-center g-5">
+          <div
+            class="col-12 col-sm-6 col-lg-6 order-xxl-2 order-xl-2 order-lg-2 order-md-2 order-sm-2"
+          >
+            <img
+              src="./assets/albumCovers/albumcollage.png"
+              class="d-block mx-lg-auto img-fluid"
+              alt="Bootstrap Themes"
+              loading="lazy"
+            />
+          </div>
+          <div
+            class="col-lg-6 col-sm-6 order-xxl-1 order-xl-1 order-lg-1 order-md-1 order-sm-1"
+          >
+            <h1 class="display-5 fw-bold lh-1 mb-5 text-light">
+              My All Time Favorite Albums Ranked.
+            </h1>
           </div>
         </div>
+      </div>
     </section>
 
     <section class="container">
-    <div class="albums-card">
+      <div class="albums-card">
         <div class="album">
-           <a href="./public/album1.html"><img class="albumcover" src="./assets/albumCovers/emotion.jpg "/></a> 
-           <h2>1. E•MO•TION (2015)</h2>
-           <h3>By Carly Rae Jepsen</h3>
-           <p>Emotion is the third studio album by Canadian singer and songwriter Carly Rae Jepsen. It was released on June 24, 2015 in Japan and worldwide on August 21, 2015 through 604, School Boy, and Interscope Records. The album was preceded by the release of its lead single, "I Really Like You", which reached top five in several territories including the United Kingdom and Japan. It was followed by "Run Away with Me" and "Your Type".</p>
+          <a href="./public/emotion.html"
+            ><img class="albumcover" src="./assets/albumCovers/emotion.jpg "
+          /></a>
+          <h2>1. E•MO•TION (2015)</h2>
+          <h3>By Carly Rae Jepsen</h3>
+          <p class="albumbio">
+            Emotion is the third studio album by Canadian singer and songwriter
+            Carly Rae Jepsen. It was released on June 24, 2015 in Japan and
+            worldwide on August 21, 2015 through 604, School Boy, and Interscope
+            Records. The album was preceded by the release of its lead single,
+            "I Really Like You", which reached top five in several territories
+            including the United Kingdom and Japan. It was followed by "Run Away
+            with Me" and "Your Type".
+          </p>
         </div>
         <hr />
         <div class="album">
-           <img class="albumcover" src="./assets/albumCovers/animal.jpg" />
-           <h2>2. Animal (2010)</h2>
-           <h3>By Kesha</h3>
-           <p>Animal is the debut studio album by American singer and songwriter Kesha. The album was released on January 5, 2010, by RCA Records. Kesha worked on the album with a variety of record producers and songwriters such as Lukasz "Dr. Luke" Gottwald, Benny Blanco, David Gamson, Greg Kurstin, Max Martin and others. Kesha had been recording demos for several years when one eventually ended up in the hands of Samantha Cox, senior director of writer/publisher relations at BMI. Cox passed along the demo and it ended up in the hands of Gottwald, who decided to have Kesha perform on the song "Right Round" with American rapper Flo Rida. Within two months, the song became a hit in multiple countries around the world. The event led to Kesha being sought after by many major labels, and she eventually signed a multi-album deal with RCA Records.</p>
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/animal.jpg "
+          /></a>
+          <h2>2. Animal (2010)</h2>
+          <h3>By Kesha</h3>
+          <p class="albumbio">
+            Animal is the debut studio album by American singer and songwriter
+            Kesha. The album was released on January 5, 2010, by RCA Records.
+            Kesha worked on the album with a variety of record producers and
+            songwriters such as Lukasz "Dr. Luke" Gottwald, Benny Blanco, David
+            Gamson, Greg Kurstin, Max Martin and others. Kesha had been
+            recording demos for several years when one eventually ended up in
+            the hands of Samantha Cox, senior director of writer/publisher
+            relations at BMI. Cox passed along the demo and it ended up in the
+            hands of Gottwald, who decided to have Kesha perform on the song
+            "Right Round" with American rapper Flo Rida. Within two months, the
+            song became a hit in multiple countries around the world. The event
+            led to Kesha being sought after by many major labels, and she
+            eventually signed a multi-album deal with RCA Records.
+          </p>
         </div>
         <hr />
         <div class="album">
-           <img class="albumcover" src="./assets/albumCovers/forms.jpg" />
-           <h2>3. 1000 Forms of Fear (2014)</h2>
-           <h3>By Sia</h3>
-           <p>1000 Forms of Fear is the sixth studio album by Australian singer Sia. It was released on 4 July 2014 by Monkey Puzzle and RCA Records worldwide, and Inertia Records in Australia. Primarily an electropop album, the record also incorporates influences from reggae and hip hop. Lyrically, the record is focused on Sia struggling to deal with drug addiction and a diagnosis of bipolar disorder at the time, later rediagnosed as complex PTSD in 2019.</p>
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/artangels.jpg "
+          /></a>
+          <h2>3. Art Angels (2015)</h2>
+          <h3>By Grimes</h3>
+          <p class="albumbio">
+            Art Angels is the fourth studio album by Canadian musician Grimes,
+            pseudonym of Claire Elise Boucher. It was digitally released on
+            November 6, 2015, through 4AD, and in physical formats on December
+            11. Boucher began planning the record in 2013 as the follow-up to
+            her third studio album, Visions; however, for unknown reasons, she
+            scrapped most of the material from these sessions and began a new
+            set of recordings in 2014. The track "Realiti", which came from the
+            earlier recordings, was released as a demo in early 2015.
+          </p>
         </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/forms.jpg "
+          /></a>
+          <h2>4. 1000 Forms of Fear (2014)</h2>
+          <h3>By Sia</h3>
+          <p class="albumbio">
+            1000 Forms of Fear is the sixth studio album by Australian singer
+            Sia. It was released on 4 July 2014 by Monkey Puzzle and RCA Records
+            worldwide, and Inertia Records in Australia. Primarily an electropop
+            album, the record also incorporates influences from reggae and hip
+            hop. Lyrically, the record is focused on Sia struggling to deal with
+            drug addiction and a diagnosis of bipolar disorder at the time,
+            later rediagnosed as complex PTSD in 2019.
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img
+              class="albumcover"
+              src="./assets/albumCovers/halcyondays.jpg "
+          /></a>
+          <h2>5. Halcyon Days (2013)</h2>
+          <h3>By Ellie Goulding</h3>
+          <p class="albumbio">
+            Halcyon Days is the reissue of English singer Ellie Goulding's
+            second studio album, Halcyon (2012). It was released on 23 August
+            2013 by Polydor Records. Following the release of Halcyon, Goulding
+            announced that she had plans to repackage the original album, with
+            new songs that focused on electronic music. For the reissue,
+            Goulding recorded 10 new songs and worked with a variety of
+            producers, including Ryan Tedder, Calvin Harris and Greg Kurstin, to
+            create her desired sound.
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/melodrama.jpg "
+          /></a>
+          <h2>6. Melodrama (2017)</h2>
+          <h3>By Lorde</h3>
+          <p class="albumbio">
+            Melodrama is the second studio album by New Zealand
+            singer-songwriter Lorde. It was released on 16 June 2017 by Lava and
+            Republic Records and distributed through Universal. Following the
+            breakthrough success of her debut album Pure Heroine (2013), Lorde
+            retreated from the spotlight, and travelled between New Zealand and
+            the United States. Initially inspired by her disillusionment with
+            fame, she wrote Melodrama to capture heartbreak and solitude after
+            her first breakup.
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/electra.jpg "
+          /></a>
+          <h2>7. Electra Heart (2012)</h2>
+          <h3>By Marina</h3>
+          <p class="albumbio">
+            Electra Heart is the second studio album by Welsh singer-songwriter
+            Marina Diamandis, released under the stage name Marina and the
+            Diamonds. It was released on 27 April 2012 by 679 Artists and
+            Atlantic Records. Diamandis collaborated with producers including
+            Liam Howe, Greg Kurstin, Dr. Luke, Diplo and Stargate during its
+            recording, and subsequently transitioned from the new wave musical
+            styles seen throughout her debut studio album, The Family Jewels
+            (2010). Their efforts resulted in a concept album consisting of
+            electropop and dance-pop music, a distinct departure from her
+            earlier projects. Lyrically, the album discusses topics of love and
+            identity. Diamandis created the title character "Electra Heart" to
+            represent female archetypes in popular American culture (House Wife,
+            Beauty Queen, Homewrecker, and Idle Teen).
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/333.jpg "
+          /></a>
+          <h2>8. 333 (2021)</h2>
+          <h3>By Tinashe</h3>
+          <p class="albumbio">
+            333 is the fifth studio album by American singer Tinashe. It was
+            released independently through her own label Tinashe Music on August
+            6, 2021.[2] The project features collaborations with Jeremih,
+            Kaytranada, Kaash Paige, Absolutely, Wax Motif, Buddy, Channel Tres,
+            Christian Blue, and Tinashe's brothers Quiet Child and Kudzai.[3]
+            The album's deluxe edition, featuring four additional tracks, was
+            released on March 3, 2022.[4]
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img class="albumcover" src="./assets/albumCovers/idisagree.jpg "
+          /></a>
+          <h2>9. I Disagree (2020)</h2>
+          <h3>By Poppy</h3>
+          <p class="albumbio">
+            I Disagree is the third studio album by American singer-songwriter
+            Poppy. it was released on January 10, 2020, as her first album with
+            Sumerian Records following her departure from Mad Decent, as well as
+            her final collaborative project with Titanic Sinclair before the end
+            of their creative partnership in 2019. The album received generally
+            positive reviews from music critics, praising Poppy's new direction
+            in music, switching from pop to metal.
+          </p>
+        </div>
+        <hr />
+        <div class="album">
+          <a href="./public/empty.html"
+            ><img
+              class="albumcover"
+              src="./assets/albumCovers/mercurialworld.jpg "
+          /></a>
+          <h2>10. Mercurial World (2021)</h2>
+          <h3>By Magdalena Bay</h3>
+          <p class="albumbio">
+            Mercurial World is the debut studio album by American synthpop duo
+            Magdalena Bay, released on October 8, 2021, through Luminelle
+            Recordings and The Orchard. The 14-track album received generally
+            positive reviews from critics. A 28-track deluxe edition was
+            released on September 23, 2022.
+          </p>
+        </div>
+        <hr />
+      </div>
     </section>
-
-        
-    
-    
-</body>
+  </body>
 </html>
