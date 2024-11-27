@@ -11,6 +11,12 @@
     animation: gradient-animation 12s ease infinite;
   }
 
+  .gradient-background-animal {
+    background: linear-gradient(300deg, #4d4a83, #9c4d66,#c9aa63 );
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
   @keyframes gradient-animation {
     0% {
       background-position: 0% 50%;
@@ -84,19 +90,6 @@ h3{
     width: 90%;
 }
 
-/* album page---------------------------------------------------------------------------------------------------------------------------*/
-
-.albumcoverpage{
-    border-radius: 10px;
-}
-
-.span-info{
-    font-weight:600;
-}
-
-/* ---------------------------------------------------------------------------------------------------------------------------------------*/
-
-
 .albums-card{
     display: inline-block;
     background-color: #EEEEEE;
@@ -107,13 +100,33 @@ h3{
 
 }
 
+
+/* album page---------------------------------------------------------------------------------------------------------------------------*/
+
+.albumcoverpage{
+    border-radius: 10px;
+}
+
+.span-info{
+    font-weight:600;
+}
+
 .list{
     border-color: #EEEEEE;
     background-color: #EEEEEE;
     border-bottom: 1px solid #ccc;
 }
 
-@media (max-width:550px) {
+.albumpageligh{
+    color: #EEEEEE;
+}
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+@media (max-width:575px) {
 
     .albumcover{
         max-width: 100%;
@@ -127,6 +140,10 @@ h3{
         margin-bottom: 5px;
         font-weight: 500;
         color:#1A1A1D;
+    }
+
+    .h1title{
+      margin-bottom: 30px;
     }
     
 }

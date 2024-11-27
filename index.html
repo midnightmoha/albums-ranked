@@ -14,22 +14,21 @@
   </head>
   <body>
     <section id="title" class="gradient-background-main">
-      <div class="container col-xxl-8 px-4">
+      <div class="container col-xxl-8 px-0">
         <div class="row align-items-center g-5">
           <div
-            class="col-12 col-sm-6 col-lg-6 order-xxl-2 order-xl-2 order-lg-2 order-md-2 order-sm-2"
+            class="col-12 col-sm-5 col-md-6 col-lg-6 order-xxl-2 order-xl-2 order-lg-2 order-md-2 order-sm-2"
           >
-            <img
-              src="./assets/albumCovers/albumcollage.png"
-              class="d-block mx-lg-auto img-fluid"
-              alt="Bootstrap Themes"
-              loading="lazy"
-            />
+          <picture>
+            <source srcset="./assets/albumCovers/coverhorizontal.png"  media="(max-width: 575px)">
+            <source srcset="./assets/albumCovers/albumcollage.png">
+            <img src="./assets/albumCovers/albumcollage.png" alt="Album cover collage" style="width: 100%">
+          </picture>
           </div>
           <div
-            class="col-lg-6 col-sm-6 order-xxl-1 order-xl-1 order-lg-1 order-md-1 order-sm-1"
+            class="col-lg-6 col-md-6 col-sm-7 order-xxl-1 order-xl-1 order-lg-1 order-md-1 order-sm-1"
           >
-            <h1 class="display-5 fw-bold lh-1 mb-5 text-light">
+            <h1 class="display-5 fw-bold lh-1 text-light mx-4 h1title">
               My All Time Favorite Albums Ranked.
             </h1>
           </div>
@@ -57,7 +56,7 @@
         </div>
         <hr />
         <div class="album">
-          <a href="./public/empty.html"
+          <a href="./public/animal.html"
             ><img class="albumcover" src="./assets/albumCovers/animal.jpg "
           /></a>
           <h2>2. Animal (2010)</h2>
