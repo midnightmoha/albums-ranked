@@ -6,7 +6,7 @@
   }
   
   .gradient-background-emotion {
-    background: linear-gradient(300deg, #fe769a, #f88ba8, #fcf15e);
+    background: linear-gradient(300deg, #fe769a, #61453f, #080605);
     background-size: 180% 180%;
     animation: gradient-animation 12s ease infinite;
   }
@@ -16,6 +16,55 @@
     background-size: 180% 180%;
     animation: gradient-animation 12s ease infinite;
   }
+
+  .gradient-background-artangels {
+    background: linear-gradient(300deg, #f03c2b, #70c390,#0f6cb7);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-1000formsoffear {
+    background: linear-gradient(300deg, #f9f6d4, #737067,#1b1a14);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-halcyondays {
+    background: linear-gradient(300deg, #a7c3f8, #782a76,#18264b);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-melodrama {
+    background: linear-gradient(300deg, #26349b, #eb4460,#fbb166);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-electraheart {
+    background: linear-gradient(300deg, #d7c1b7, #94aeb2,#2c2725);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-333 {
+    background: linear-gradient(300deg, #676c5f, #c8c0b5,#7cb15a);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-idisagree {
+    background: linear-gradient(300deg, #a3a3a3, #6e6e6e,#1c1c1c);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
+  .gradient-background-mercurialworld {
+    background: linear-gradient(300deg, #676c5f, #d0a6ab,#eb809e);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+
 
   @keyframes gradient-animation {
     0% {
